@@ -461,7 +461,7 @@ p {
 
 .intro-text {
     font-size: 1.1rem;
-    color: #555;
+    color: #666;
     margin-bottom: 2rem;
     line-height: 1.8;
     text-align: justify;
@@ -944,16 +944,19 @@ body.dark-mode {
     color: var(--text-color-primary);
 }
 
+
+/* dark mode */
 body.dark-mode p,
 body.dark-mode span,
 body.dark-mode li,
 body.dark-mode .timeline-description,
-body.dark-mode .about-intro,
-body.dark-mode .soft-skill,
-body.dark-mode .skill-name,
-body.dark-mode .contact-text h4,
-body.dark-mode .contact-text a,
-body.dark-mode .contact-info p {
+body.dark-mode .about-intro, 
+body.dark-mode .soft-skill,   
+body.dark-mode .skill-name,   
+body.dark-mode .contact-text h4, 
+body.dark-mode .contact-text a,  
+body.dark-mode .contact-info p,
+body.dark-mode .intro-text { 
     color: var(--text-color-primary) !important;
 }
 
